@@ -1,8 +1,8 @@
 import React from 'react';
-import Image from 'next/image';
+import * as NextImage from 'next/image';
 
 export default function Image(props) {
     return (
-        <Image src={props.source} layout='fill' {...props} />
+        <NextImage src={props.source} layout='fill' {...props} />
     )
 }
