@@ -1,8 +1,8 @@
 import React from 'react';
-import * as NextImage from 'next/image';
+import Image from 'next/image';
 
-export default function Image(props) {
+export function SharedImage(props) {
     return (
-        <NextImage src={props.source} layout='fill' {...props} />
+        <Image src={props.source} layout='fill' {...props} />
     )
 }
