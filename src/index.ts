@@ -1,4 +1,2 @@
-import { SharedImage } from './components/Image';
-export default {
-    Image: SharedImage
-}
+import SharedImage from './components/Image';
+export default SharedImage;
