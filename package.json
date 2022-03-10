@@ -1,0 +1,44 @@
+{
+  "name": "react-native-next-image",
+  "version": "1.0.0",
+  "description": "Use React Native Image or NextJS Image",
+  "sideEffects": true,
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "repository": "https://github.com/horizon-alpha/react-native-next-image",
+  "author": "Alexander Kuttig",
+  "license": "MIT",
+  "files": [
+    "build"
+  ],
+  "jest": {
+    "preset": "jest-expo-enzyme"
+  },
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.162",
+    "@types/lodash.get": "^4.4.6",
+    "@types/react": "^16.9.16",
+    "@types/react-native": "^0.62.2",
+    "expo-module-scripts": "^1.1.1",
+    "jest-expo-enzyme": "^0.0.1",
+    "next": "^10.2.3",
+    "prettier": "^1.19.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-native": "^0.66.4",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "next-images": "^1.8.1",
+    "react-native": "^0.66.4"
+  },
+  "homepage": "https://github.com/horizon-alpha/react-native-next-image"
+}
