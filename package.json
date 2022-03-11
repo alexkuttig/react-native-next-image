@@ -29,17 +29,18 @@
     "@types/react-native": "^0.62.2",
     "expo-module-scripts": "^1.1.1",
     "jest-expo-enzyme": "^0.0.1",
-    "next": "^10.2.3",
+    "next": "11.1.2",
+    "next-images": "^1.8.1",
     "prettier": "^1.19.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-native": "^0.66.4",
     "typescript": "^4.4.3"
   },
-  "dependencies": {
-    "next": "11.1.2",
-    "next-images": "^1.8.1",
-    "react-native": "^0.66.4"
+  "peerDependencies": {
+    "next": "*",
+    "next-images": "*",
+    "react-native": "*"
   },
   "homepage": "https://github.com/horizon-alpha/react-native-next-image"
 }
